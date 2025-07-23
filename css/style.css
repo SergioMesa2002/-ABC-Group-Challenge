@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+:root {
+  --fuente-suerte: 'Luckiest Guy', bold;
+}
+
+.container{
+    display: inline-block;
+}
+
+.cardLetra{
+    box-sizing: border-box;
+    border: solid 2px rgb(54, 54, 54);
+    border-radius: 8px;
+    box-shadow: 8px 8px rgb(182, 182, 182);
+    background: #fff;
+    width: 120px;
+    transition: all 0.3s;
+    margin: 10px;
+
+    h1{
+        text-align: center;
+        font-family: var(--fuente-titulo);
+        font-size: 40px;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+    p{
+        text-align: center;
+        margin: 10px 0 ;
+    }
+}
+
+.cardLetraN:hover{
+    background-color: rgba(146, 255, 161, 0.411);
+}
