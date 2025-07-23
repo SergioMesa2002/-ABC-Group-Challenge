@@ -28,7 +28,7 @@
 
     img{
         width: 100px;
-        height: 100px;
+        height: 105px;
     }
 
     p{
@@ -37,6 +37,6 @@
     }
 }
 
-.cardLetraN:hover{
-    background-color: rgba(146, 255, 161, 0.411);
+.cardLetra:hover{
+    background-color: rgba(148, 252, 162, 0.411);
 }
